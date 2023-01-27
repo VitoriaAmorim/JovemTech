@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(32, 228, 162);
+    background-color:aquamarine;
     color: darkblue;
     font-family: cursive;
 }
@@ -8,7 +8,7 @@ h1 {
 }
 nav {
     background-color:darkslateblue;
-    padding: 20px;
+    padding: 10px;
 }
 nav ul {    
     text-align: right;
