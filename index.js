@@ -12,7 +12,7 @@ app.get ('/home', function(req, res) {
 });
 
 app.get ('/jovemtech/listaalunos', function(req, res) {
-    res.send('Página para listar alunos matriculados');
+    res.sendFile(__dirname + '/public/html/alunos.html');
 });
 
 app.get ('/jovemtech/professores', function(req, res) {

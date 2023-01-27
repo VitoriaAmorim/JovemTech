@@ -1,11 +1,10 @@
-body{
-    background-color: rgb(122, 226, 192);
-    color: rgb(82, 14, 146);
-    font-family: serif
+body {
+    background-color: aquamarine;
+    color: darkblue;
+    font-family: cursive;
 }
 h1 {
-    text-align: center;
-    font-size: 40px;
+    padding: 5px;
 }
 nav {
     background-color:darkslateblue;
