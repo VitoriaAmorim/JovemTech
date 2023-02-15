@@ -1,8 +1,5 @@
-
 var express = require ('express');
 var app = express ();
-const express = require("express");
-const app = express();
 const handlebars = require('express-handlebars')
 const bodyParser = require('body-parser')
 const Comment = require('./models/comment')
@@ -43,22 +40,10 @@ app.set('view engine', 'handlebars');
                 res.send('Ocorreu um erro')
             })
         })
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+app.listen(8081,function(){
+    console.log("Servidor rodando na porta http://localhost:8081/");
+});
 
 
 
@@ -94,6 +79,6 @@ app.get ('/jovemtech/comentarios', function(req, res) {
     res.send('Página para deixar seu comentário');
 });
 
-app.listen (8081,function(){
-    console.log('Servidor rodando na porta http://localhost:8081/home');
+app.listen(8081,function(){
+    console.log("Servidor rodando na porta http://localhost:8081/home");
 });

@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 
 //Fazendo conexão com o banco de dados.
-const sequelize = new Sequelize('jovemtech','root','1234',{
+const sequelize = new Sequelize('favelaware','root','root',{
     host: 'localhost',
     dialect: 'mysql',
     query: {raw:true}
