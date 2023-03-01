@@ -1,23 +1,30 @@
 body{
-    background-color: rgb(122, 226, 192);
-    color: rgb(82, 14, 146);
-    font-family: serif
+    background-color: darkslateblue;
 }
-h1 {
-    text-align: center;
-    font-size: 45px;
+nav{
+    background-color: brown;
 }
-nav {
-    background-color:darkslateblue;
-    padding: 20px;
-}
-nav ul {    
+nav ul{
     text-align: right;
-}
-nav li {
-    display: inline-block;
-    color: rgb(13, 218, 150);
+    padding: 10px;
     font-size: 20px;
-    padding: 5px;
-    font-family: cursive
+    color: aliceblue;
+}
+nav li{
+    display: inline-block;
+}
+h1{
+    color: #2023;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    padding: 0 150px;
+    display: inline-block;
+    text-align: center;
+}
+div{
+    display: inline-block;
 }

@@ -1,4 +1,5 @@
 const { Sequelize, sequelize} = require('./db')
+
 const db = require('./db')
 
 const Comment = db.sequelize.define('comentarios',{
@@ -10,8 +11,8 @@ const Comment = db.sequelize.define('comentarios',{
     }
 
 })
+
 module.exports = Comment
 
-
-//Comando para criar a tabela, executar só uma vez.
+//Comando para criar a tabela, executar só uma vez
 Comment.sync({force:true})
